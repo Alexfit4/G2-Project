@@ -52,6 +52,8 @@ html, body{
 
 .card {
   margin-left: 50px;
+  border: solid;
+  border-width: thick;
 }
 
   /* Styling for slider */
