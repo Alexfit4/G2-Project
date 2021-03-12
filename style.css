@@ -1,6 +1,7 @@
 /* Positioning for background image full screen */
 html, body{
     height: 100%;
+    font-weight: bold;
   }
   body { 
               background-image: url('./curtain.jpg') ;
@@ -11,7 +12,6 @@ html, body{
               background-color: #999;
     
   }
-
 
 #tickets {
     position: absolute;
@@ -34,10 +34,15 @@ html, body{
     left: 30%;
   }
 
+  #newProd {
+      color: brown;
+  }
   
   .navbar {
     margin-top: 30px;
     color: white;
+    transition: background-color 0.3s ease;
+  background-color: rgba(255,255,255,0);
 }
 
 
